@@ -1,10 +1,10 @@
-# 📊 Bank Credit Risk Analysis: Probability of Default (PD) Model
+# Bank Credit Risk Analysis: Probability of Default (PD) Model
 
 This repository contains a **Bank Credit Risk Analysis** project that focuses on building a **Probability of Default (PD) Model** using **logistic regression**. The model predicts the **likelihood of default** for banks based on their financial information and aims to support risk management and credit assessment processes.
 
 ---
 
-## 📚 **Project Overview**
+## **Project Overview**
 
 The goal of this project is to create a **Probability of Default (PD) Model** for banks and financial institutions. The model uses **financial ratios and features derived from bank financial statements** to predict whether a bank is likely to default within a specific time window.
 
@@ -14,7 +14,7 @@ This project can be used to support **credit risk management**, **regulatory rep
 
 ---
 
-## 📈 **Data Overview**
+## **Data Overview**
 
 The project works with two main datasets:
 
@@ -25,7 +25,7 @@ The datasets are merged using the **`IDRSSD`** identifier to create a unified da
 
 ---
 
-## 🔧 **Methodology**
+## **Methodology**
 
 The following steps are taken to build the Probability of Default model:
 
@@ -56,7 +56,7 @@ The following steps are taken to build the Probability of Default model:
 
 ---
 
-## 📊 **Key Financial Ratios Created**
+## **Key Financial Ratios Created**
 
 | **Ratio**               | **Description**                                      |
 |-------------------------|------------------------------------------------------|
@@ -68,7 +68,7 @@ The following steps are taken to build the Probability of Default model:
 
 ---
 
-## 🔄 **Model Performance (ROC AUC Score)**
+## **Model Performance (ROC AUC Score)**
 
 The model was evaluated using the **ROC AUC Score** to measure its ability to distinguish between defaults and non-defaults. The score reflects the model's discriminatory power.
 
@@ -78,7 +78,7 @@ The model was evaluated using the **ROC AUC Score** to measure its ability to di
 
 ---
 
-## 💡 **Insights from the Model**
+## **Insights from the Model**
 
 - The **`loans_to_deposits`** ratio had a significant impact on predicting defaults, indicating that liquidity risk is a critical factor.
 - **Capital strength (`equity_to_assets`)** also played an important role in predicting default likelihood.
@@ -86,7 +86,7 @@ The model was evaluated using the **ROC AUC Score** to measure its ability to di
 
 ---
 
-## 📄 **Project Files**
+## **Project Files**
 
 | **File Name**                  | **Description**                                 |
 |--------------------------------|-------------------------------------------------|
@@ -96,7 +96,7 @@ The model was evaluated using the **ROC AUC Score** to measure its ability to di
 
 ---
 
-## 📇 **Technologies Used**
+## **Technologies Used**
 
 - **Python 3.11**
 - **Pandas** for data manipulation.
@@ -106,40 +106,4 @@ The model was evaluated using the **ROC AUC Score** to measure its ability to di
 
 ---
 
-## 🛠 **How to Run the Project**
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/bank-credit-risk-pd-model.git
-   cd bank-credit-risk-pd-model
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook "Wholesale Credit Analysis PD Model.ipynb"
-   ```
-
----
-
-## 💡 **Future Improvements**
-
-- **Improve feature selection** using **recursive feature elimination (RFE)**.
-- Explore **alternative models** such as **Random Forest** and **XGBoost**.
-- Use **cross-validation** to improve model stability.
-- Explore **alternative ways to handle missing data**.
-
----
-
-## 📞 **Contact**
-
-If you have any questions or suggestions, feel free to reach out!
-
-- **Email**: your.email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
-```
 
