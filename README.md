@@ -86,15 +86,6 @@ The model was evaluated using the **ROC AUC Score** to measure its ability to di
 
 ---
 
-## **Project Files**
-
-| **File Name**                  | **Description**                                 |
-|--------------------------------|-------------------------------------------------|
-| `Wholesale Credit Analysis PD Model.ipynb` | Main Jupyter Notebook with full analysis.      |
-| `default_data.pickle`          | Default data used in the analysis.              |
-| `bank_financials.pickle`       | Financial data used in the analysis.            |
-
----
 
 ## **Technologies Used**
 
